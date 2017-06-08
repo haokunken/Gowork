@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head> 
+  <meta charset="UTF-8" /> 
+  <title>按级别划分</title> 
+  <link rel="stylesheet" type="text/css" href="css/common_y.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/Price_model_l.css" /> 
+  <link rel="stylesheet" type="text/css" href="css/red_y.css" /> 
+  <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script> 
+  <script type="text/javascript">var url_pre = 'http://www.jlonline.com/qiche';</script> 
+ </head> 
+ <body> 
+  <div class="topGrey"> 
+   <div class="inforWidth"> 
+    <div class="indexWel fl"> 
+     <span>您好！欢迎来到金陵热线</span>
+    </div> 
+    <div class="topWord fr"> 
+     <a href="" target="_blank">首页</a> 
+     <a href="" target="_blank">图片</a> 
+     <a href="" target="_blank">资讯</a> 
+     <a href="" target="_blank">报价</a> 
+     <a href="" target="_blank">车型对比</a> 
+     <a href="" target="_blank">口碑</a>
+    </div> 
+   </div> 
+  </div> 
+  <div class="header new-header"> 
+   <div class="inforWidth"> 
+    <div class="main cf"> 
+     <h1 class="logo fl"> <a href="http://www.jlonline.com/qiche"> <img src="http://static.mianfei.com/common/logo/jlonline.com/112/logo.png" /></a> </h1> 
+     <div class="header-city fl"> 
+      <div class="city_hot"> 
+       <div class="cityCho cf"> 
+        <span class="city-now" id="local_citypop">南京</span> 
+        <i class="caret caret-fff"></i> 
+       </div> 
+       <div class="mtzhan"> 
+        <span class="hotcname">热门城市</span> 
+        <div class="hotctCon"> 
+         <a href="javascript:void(0);" data-ikey="110100">北京</a> 
+         <a href="javascript:void(0);" data-ikey="310100">上海</a> 
+         <a href="javascript:void(0);" data-ikey="440100">广州</a> 
+         <a href="javascript:void(0);" data-ikey="410100">郑州</a> 
+         <a href="javascript:void(0);" data-ikey="510100">成都</a> 
+         <a href="javascript:void(0);" data-ikey="420100">武汉</a> 
+         <a href="javascript:void(0);" data-ikey="330100">杭州</a> 
+         <a href="javascript:void(0);" data-ikey="370100">济南</a> 
+         <a href="javascript:void(0);" data-ikey="440300">深圳</a> 
+         <a href="javascript:void(0);" data-ikey="500100">重庆</a> 
+         <a href="javascript:void(0);" data-ikey="320100">南京</a> 
+         <a href="javascript:void(0);" data-ikey="130100">石家庄</a> 
+         <a href="javascript:void(0);" data-ikey="440600">佛山</a> 
+         <a href="javascript:void(0);" data-ikey="530100">昆明</a> 
+         <a href="javascript:void(0);" data-ikey="610100">西安</a> 
+         <a href="javascript:void(0);" data-ikey="120100">天津</a> 
+         <a href="javascript:void(0);" data-ikey="430100">长沙</a> 
+         <a href="javascript:void(0);" data-ikey="230100">哈尔滨</a> 
+         <a href="javascript:void(0);" data-ikey="210100">沈阳</a> 
+         <a href="javascript:void(0);" data-ikey="340100">合肥</a> 
+         <a href="javascript:void(0);" data-ikey="370200">青岛</a> 
+         <a href="javascript:void(0);" data-ikey="350100">福州</a> 
+         <a href="javascript:void(0);" data-ikey="320500">苏州</a> 
+         <a href="javascript:void(0);" data-ikey="450100">南宁</a> 
+         <a href="javascript:void(0);" data-ikey="320200">无锡</a> 
+         <a href="javascript:void(0);" data-ikey="441900">东莞</a> 
+         <a href="javascript:void(0);" data-ikey="520100">贵阳</a> 
+         <a href="javascript:void(0);" data-ikey="620100">兰州</a> 
+         <a href="javascript:void(0);" data-ikey="360100">南昌</a> 
+        </div> 
+        <span class="ckMore"> <a href="">查看全部&gt;&gt;</a> </span> 
+       </div> 
+       <script>
+                        var oldcity = '南京';
+                    </script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="search_r fr"> 
+     <input type="text" class="sug-control" id="indexSear" placeholder="请输入关键字" /> 
+     <input id="brandId" type="hidden" name="brand_id" value="" /> 
+     <input id="searchBrandTypeId" type="hidden" name="brand_type_id" value="" /> 
+     <a href="javascript:;" class="sug_submit">搜车</a> 
+     <div class="brand-bg" id="brandFirst"> 
+      <div class="brand-letters"> 
+       <a href="javascript:;" data-value="A">A</a> 
+       <a href="javascript:;" data-value="B">B</a> 
+       <a href="javascript:;" data-value="C">C</a> 
+       <a href="javascript:;" data-value="D">D</a> 
+       <a href="javascript:;" data-value="F">F</a> 
+       <a href="javascript:;" data-value="G">G</a> 
+       <a href="javascript:;" data-value="H">H</a> 
+       <a href="javascript:;" data-value="J">J</a> 
+       <a href="javascript:;" data-value="K">K</a> 
+       <a href="javascript:;" data-value="L">L</a> 
+       <a href="javascript:;" data-value="M">M</a> 
+       <a href="javascript:;" data-value="N">N</a> 
+       <a href="javascript:;" data-value="O">O</a> 
+       <a href="javascript:;" data-value="P">P</a> 
+       <a href="javascript:;" data-value="Q">Q</a> 
+       <a href="javascript:;" data-value="R">R</a> 
+       <a href="javascript:;" data-value="S">S</a> 
+       <a href="javascript:;" data-value="T">T</a> 
+       <a href="javascript:;" data-value="W">W</a> 
+       <a href="javascript:;" data-value="X">X</a> 
+       <a href="javascript:;" data-value="Y">Y</a> 
+       <a href="javascript:;" data-value="Z">Z</a>
+      </div> 
+      <div class="brand-name" id="brand-name"></div> 
+     </div> 
+     <div class="brand-bg models_bg" id="brand-type-name"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="top_l"> 
+   <div class="cheWidth"> 
+    <span class="word_l">12万左右的车城网</span> 
+   </div> 
+  </div> 
+  <div class="main"> 
+   <div class="cheWidth clearfix"> 
+    <div class="path1 "> 
+     <span>当前位置：</span>
+     <span>媒体名称</span> &gt;&gt; 
+     <a href="javascript:;" class="disabled">标签名称</a> 
+    </div> 
+    <div class="news_l  fl"> 
+     <div class="whiteBg clear"> 
+      <div class="tits">
+       <h2>同价位车型</h2>
+      </div> 
+      <div class="line"></div> 
+      <div class="cheRecom "> 
+       <ul> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzY3My9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>北汽幻速S5</p> <span class="jg">6.98-7.98万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4276">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzY0My9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>荣威eRX5</p> <span class="jg">26.59-28.59万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4240">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU4NS9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>标致4008</p> <span class="jg">18.57-27.37万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4167">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU4NC9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>宝骏510</p> <span class="jg">5.48-6.98万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4166">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU3Ni9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>北汽幻速S3L</p> <span class="jg">6.68-6.98万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4158">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU3Ni9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>北汽幻速S3L</p> <span class="jg">6.68-6.98万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4158">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU3Ni9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>北汽幻速S3L</p> <span class="jg">6.68-6.98万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4158">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU3Ni9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>北汽幻速S3L</p> <span class="jg">6.68-6.98万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4158">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU3Ni9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>北汽幻速S3L</p> <span class="jg">6.68-6.98万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4158">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU3Ni9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>北汽幻速S3L</p> <span class="jg">6.68-6.98万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4158">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU3Ni9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: inline;" /></a> <p>北汽幻速S3L</p> <span class="jg">6.68-6.98万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4158">询底价</a> 
+         </div> </li> 
+        <li> <a href="http://women.80end.cn/2017/auto/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vMzU2Ni9wcmljZS5odG1s"> <img class="lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="保时捷Cayman特别版车型一览 售74.8万元起" style="display: inline;" /></a> <p>欧蓝德</p> <span class="jg">15.98-22.38万</span> 
+         <div class="xj"> 
+          <a target="_blank" href="http://women.80end.cn/2017/auto/dealer/order-4147">询底价</a> 
+         </div> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="whiteBg mb50 mt20 clear"> 
+      <div class="tits">
+       <h2>南京紧凑型车排行榜</h2>
+      </div> 
+      <div class="line"></div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+      <div class="titbox"> 
+       <div class="tabContent "> 
+        <div class="tab_text "> 
+         <a href="" target="_blank"><img class=" lazy" src="images/pic_bg.png" data-original="http://img.mianfeiapp.net/1/86/3006/22535/57b69cc2a522e.jpg?x-oss-process=image/resize,m_lfit,h_380,w_550/format,png" alt="1" style="display: block;" /></a> 
+         <h3><a href="" target="_blank">保时捷Cayman特别版车型一览 售74.8万元起</a></h3> 
+         <p> 近日，我们从保时捷（中国）官网发现，旗下Cayman新增了一款Style Edition特别版车型，新车依然搭载与Cayman基础版相同的2.7L发动机，只不过在配备了系列专属套件后拥有了自己的一些独立个性，售价为74.8万元。 </p> 
+         <span class="n_tags fl"> 
+          <!-- 关联车型和车系 使用 标签+尾词和哪个好 混搭 --> <a href="http://auto.myrb.net/tag/7292">南京</a> <a href="http://auto.myrb.net/tag/8874">五万以下</a> <a href="http://auto.myrb.net/tag/2679">suv</a> <a href="http://auto.myrb.net/tag/2679">南京车城销售公司</a> </span> 
+         <!-- <span class="from fl">车城网</span> --> 
+         <span class="time fr">2017-03-01</span> 
+        </div> 
+       </div> 
+       <div class="linedashed"></div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="new_r"> 
+     <div class="shadow whiteBg "> 
+      <div class="tits"> 
+       <h2>关注排行榜</h2>
+      </div> 
+      <div class="line"></div> 
+      <div class="jxwztj"> 
+       <ul> 
+        <li> <span class="top3">1</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">SUV</span> </li> 
+        <li> <span class="top3">2</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">MPV</span> </li> 
+        <li> <span class="top3">3</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">MPV</span> </li> 
+        <li> <span class="Tphb">4</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">MPV</span> </li> 
+        <li> <span class="Tphb">5</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">MPV</span> </li> 
+        <li> <span class="Tphb">6</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">MPV</span> </li> 
+        <li> <span class="Tphb">7</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">MPV</span> </li> 
+        <li> <span class="Tphb">8</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">MPV</span> </li> 
+        <li> <span class="Tphb">9</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">MPV</span> </li> 
+        <li> <span class="Tphb">10</span> <span class="wordl fl"><a target="_blank" href="#">卡罗拉</a></span> <span class="wordr fr">MPV</span> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="shadow whiteBg mt20"> 
+      <div class="tits"> 
+       <h2>大家还搜索了</h2> 
+      </div> 
+      <div class="line"></div> 
+      <div class="changeCon"> 
+       <ul id="change"> 
+        <li> <a href="">奥迪A4汽车收费标准</a> </li> 
+        <li> <a href="">奥迪A4询底价</a> </li> 
+        <li> <a href="">两标签加起来</a> </li> 
+        <li> <a href="">来11-15字之间</a> </li> 
+        <li> <a href="">奥迪A4汽车图片</a> </li> 
+        <li> <a href="">奥迪A4预约试驾</a> </li> 
+       </ul> 
+       <ul id="notChange"> 
+        <li> <a href="">菲尼迪英菲尼迪要去哪里买优惠比较大</a> </li> 
+        <li> <a href="">一个标签15-18字符之间一个标签15-18</a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="shadow whiteBg mt20"> 
+      <div class="tits"> 
+       <h2>24小时文章排行榜</h2>
+      </div> 
+      <div class="line"></div> 
+      <div class="jxwztj"> 
+       <ul> 
+        <li> <span class="top3">1</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+        <li> <span class="top3">2</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+        <li> <span class="top3">3</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+        <li> <span class="Tphb">4</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+        <li> <span class="Tphb">5</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+        <li> <span class="Tphb">6</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+        <li> <span class="Tphb">7</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+        <li> <span class="Tphb">8</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+        <li> <span class="Tphb">9</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+        <li> <span class="Tphb">10</span> <a target="_blank" href="http://www.jlonline.com/qiche/2017-03-05/1881541.html">大众途昂全新配置七座SUV最新报价34万领衔上市</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="hotTab"> 
+   <div class="cheWidth"> 
+    <div class="cxpp_tab"> 
+     <ul class="cxpp_tit"> 
+      <li> <a href="javascript:;" class="current">热门车系</a> </li> 
+      <li> <a href="javascript:;">热门品牌</a> </li> 
+     </ul> 
+     <div class="cxppCon"> 
+      <a href="" target="_blank">本田思域</a> 
+      <a href="" target="_blank">大众POLO</a> 
+      <a href="" target="_blank">奔驰E级</a> 
+      <a href="" target="_blank">大众途安</a> 
+      <a href="" target="_blank">铃木雨燕</a> 
+      <a href="" target="_blank">福特福克斯</a> 
+      <a href="" target="_blank">大众速腾</a> 
+      <a href="" target="_blank">日产轩逸</a> 
+      <a href="" target="_blank">大众迈腾</a> 
+      <a href="" target="_blank">丰田卡罗拉</a> 
+      <a href="" target="_blank">奔驰C级</a> 
+      <a href="" target="_blank">奥迪A4L</a> 
+      <a href="" target="_blank">丰田汉兰达</a> 
+      <a href="" target="_blank">别克君越</a> 
+      <a href="" target="_blank">大众高尔夫</a> 
+      <a href="" target="_blank">广汽吉奥帅威</a> 
+      <a href="" target="_blank">别克英朗</a> 
+      <a href="" target="_blank">宝马X1</a> 
+      <a href="" target="_blank">丰田YARiS L 致炫</a> 
+      <a href="" target="_blank">奔驰GLA</a> 
+      <a href="" target="_blank">福特福睿斯</a> 
+      <a href="" target="_blank">宝骏730</a> 
+      <a href="" target="_blank">丰田雷凌</a> 
+      <a href="" target="_blank">吉利汽车帝豪GS</a> 
+      <a href="" target="_blank">本田XR-V</a> 
+      <a href="" target="_blank">别克威朗</a> 
+      <a href="" target="_blank">比亚迪宋</a> 
+      <a href="" target="_blank">吉利汽车博越</a> 
+      <a href="" target="_blank">Jeep指南者</a> 
+      <a href="" target="_blank">马自达CX-4</a> 
+      <a href="" target="_blank">众泰SR9</a> 
+      <a href="" target="_blank">宝骏310</a> 
+      <a href="" target="_blank">荣威RX5</a> 
+      <a href="" target="_blank">广汽传祺传祺GS8</a> 
+      <a href="" target="_blank">本田冠道</a> 
+      <a href="" target="_blank">标致4008</a> 
+      <a href="" target="_blank">大众蔚领</a> 
+      <a href="" target="_blank">荣威eRX5</a> 
+      <a href="" target="_blank">大众途观L</a> 
+     </div> 
+     <div class="cxppCon" style="display:none;"> 
+      <a href="" target="_blank">大众</a> 
+      <a href="" target="_blank">丰田</a> 
+      <a href="" target="_blank">本田</a> 
+      <a href="" target="_blank">日产</a> 
+      <a href="" target="_blank">奥迪</a> 
+      <a href="" target="_blank">雪佛兰</a> 
+      <a href="" target="_blank">宝马</a> 
+      <a href="" target="_blank">现代</a> 
+      <a href="" target="_blank">别克</a> 
+      <a href="" target="_blank">福特</a> 
+      <a href="" target="_blank">比亚迪</a> 
+      <a href="" target="_blank">哈弗</a> 
+      <a href="" target="_blank">长城</a> 
+      <a href="" target="_blank">长安</a> 
+      <a href="" target="_blank">起亚</a> 
+      <a href="" target="_blank">马自达</a> 
+      <a href="" target="_blank">Jeep</a> 
+      <a href="" target="_blank">奔驰</a> 
+      <a href="" target="_blank">吉利汽车</a> 
+      <a href="" target="_blank">标致</a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="footer" id="footer"> 
+   <div class="footmenu"> 
+    <div class="container"> 
+     <div class="footLink tc"> 
+      <a target="blank" href="http://www.jlonline.com/about/index.html">网站介绍</a> 
+      <a target="blank" href="http://www.jlonline.com/about/copyright.html">版权说明</a> 
+      <a target="blank" href="http://www.jlonline.com/qiche/index/jumpUrl?url=aHR0cDovL3d3dy5jaGVjaGVuZy5jb20vYWJvdXQvY29udGFjdC5odG1s">联系我们</a> 
+      <a target="blank" href="http://www.jlonline.com/about/sitemaps.html">网站地图(xml)</a> 
+      <span>联系我们：17798999999</span> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="container"> 
+    <div class="cf f-cleft mt20"> 
+     <div class="f-cright"> 
+      <p>免责声明：本（栏目、频道等）内容由SP提供。欢迎大家对侵犯版权等不合法和不健康的内容进行监督和举报。</p> 
+      <p> [增值电信业务经营许可证A2.B1.B2-20090001]&nbsp;[文网文[2008]053号]&nbsp;[国新网许可证：3212006005]&nbsp; <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">[苏ICP备07021571号]</a> </p> 
+      <p>版权所有：中国电信股份有限公司南京分公司&nbsp;&nbsp;技术支持：江苏知能邮电通信技术有限公司</p> 
+     </div> 
+    </div> 
+    <div class="f-pic mt15"> 
+     <a href="http://www.wenming.cn/" target="_blank"> <img src="http://img.car.mianfeiapp.net/car/images/ft-img1.jpg" alt="中国文明网传播文明" /></a> 
+     <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"> <img src="http://img.car.mianfeiapp.net/car/images/ft-img2.jpg" alt="南京网络警察报警平台" /></a> 
+     <a href="http://www.cyberpolice.cn/wfjb/" target="_blank"> <img src="http://img.car.mianfeiapp.net/car/images/ft-img3.jpg" alt="公安信息安全网络监察" /></a> 
+     <a href="http://www.miibeian.gov.cn/state/outPortal/loginPortal.action" target="_blank"> <img src="http://img.car.mianfeiapp.net/car/images/ft-img4.jpg" alt="经营性网站备案信息" /></a> 
+     <a href="http://net.china.cn/" target="_blank"> <img src="http://img.car.mianfeiapp.net/car/images/ft-img5.jpg" alt="不良信息举报中心" /></a> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="js/jquery.lazyload.js"></script> 
+  <script type="text/javascript" src="js/common_y.js"></script>  
+ </body>
+</html>

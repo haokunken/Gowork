@@ -1,0 +1,185 @@
+@charset "utf-8";
+a:hover,.menu a:hover{color:#277bc4;}
+.nav{background:#0a518f;}
+.nav a:hover{background:#277bc4;color:#fff;}
+.nav a.current{background:#277bc4;}
+/*header*/
+.sug-control{border: #0a518f 2px solid;}
+.sug_submit {background: #0a518f;}
+.cityCho .city-now,.cityCho .caret-fff,.zhixiashi span,.zhixiashi a,.new-menu a.current{color: #277bc4;}
+.searchBox .search,.searchMini-content{border: 1px solid #277bc4; }
+.sousuo{background: url(../images/dark-blue/sousuo_blue.jpg) no-repeat center;}
+.fastSea a:hover,.csName a:hover{color: #277bc4}
+.caret { display: inline-block; width: 0; height: 0; margin-left: 2px; vertical-align: middle; border-top: 4px solid; border-right: 4px solid transparent; border-left: 4px solid transparent; }
+/*search*/
+.brand-letters a:hover,.brand-name a.current,.carlin p a:hover{color:#0a518f; }
+/*news首页*/
+.menu i{background:url(../images/dark-blue/menu_blue.png) no-repeat;}
+.menu a.current span{color:#277bc4;}
+.xuanche .alink a{background: #277bc4;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 0\9;}
+.xuanche .alink a:hover { background: #0a518f;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -47px\9; }
+.xuanche .linklist a {background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -94px\9;}
+.xuanche .linklist a:hover,.xuanche .linklist a.current{background:#277bc4;color:#fff;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -138px\9}
+.news_tab ul.tab_tit li a.current{border-bottom:#277bc4 3px solid;color: #277bc4;}
+.tits h2{border-left: 4px solid #277bc4;}
+.page_box a:hover{background:#f2f2f2;border:#277bc4 1px solid;}
+.page_box li.page_now a,.page_box li.active a{background: #277bc4;border: #277bc4 1px solid;}
+.news-carlist a:hover{color:#0a518f;}
+.xc_rili .big-word{background: url(../images/dark-blue/icon_blue2.png) no-repeat 0 10px;}
+.xc_rili .big-word .rili_time{background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -185px\9;}
+.now .big-word .rili_time{background:#54bdff;color:#fff;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -227px\9;}
+.shu_line{background: #54bdff;}
+
+.cxpp_tab .cxpp_tit li a.current{border-bottom:#277bc4 3px solid;color: #277bc4;}
+.ranking_24 .list .big-word{background:url(../images/dark-blue/icon_blue1.png) no-repeat 0 14px;}
+.news-carlist .car{background: url(../images/dark-blue/car_blue.png) no-repeat center;}
+.news-carlist .wxc{background-position: -6px -6px;width: 39px;}
+.news-carlist .xxc{background-position: -50px -6px;width: 46px;}
+.news-carlist .jcxc{background-position: -96px -6px;width: 48px;}
+.news-carlist .zxc{background-position: -150px -6px;width: 44px;}
+.news-carlist .zdxc{background-position: -199px -6px;width: 45px;}
+.news-carlist .dxc{background-position: -250px -6px;width: 46px;}
+.news-carlist .suv{background-position: -300px -6px;width: 44px;}
+.news-carlist .mpv{background-position: -350px -6px;width: 45px;}
+.news-carlist a:hover .wxc{background-position:-6px -35px }
+.news-carlist a:hover .xxc{background-position:-50px -35px;}
+.news-carlist a:hover .jcxc{background-position:-96px -35px;}
+.news-carlist a:hover .zxc{background-position:-150px -35px;}
+.news-carlist a:hover .zdxc{background-position:-199px -35px;}
+.news-carlist a:hover .dxc{background-position:-250px -35px;}
+.news-carlist a:hover .suv{background-position:-300px -35px;}
+.news-carlist a:hover .mpv{background-position:-350px -35px;}
+/*article*/
+.nav span.xunjia{background: url(../images/dark-blue/xunjia_blue.png) no-repeat;}
+.nav span.xunjia a:hover{background: url(../images/dark-blue/xunjia_blue_hover.png) no-repeat;}
+.aTit i{background:#277bc4;}
+.aTit em a,.chePrice,.jjText .price_2{color:#277bc4;}
+.jiangBtn a{border:#277bc4 1px solid;color:#277bc4;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -269px\9;border:none\9;}
+.jiangBtn a:hover{background: #277bc4;color:#fff;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -308px\9;}
+.chexiBtn a:hover{background:#277bc4;color:#fff;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -384px\9;}
+.giftForm .rightBox .tit{background: #0a518f;}
+.giftForm .imInfor .formStyle .formFild .giftBtn{background: #277bc4;}
+.giftForm .imInfor .formStyle .formFild .giftBtn:hover{background:#0a518f }
+.pkNew .pikai a{background: url(../images/dark-blue/pk_blue.png) no-repeat center;}
+.pkNew .pikai a:hover{background: url(../images/dark-blue/change_blue.png) no-repeat center;}
+.pkNew .list .checkbox-inline.on{background:url(../images/dark-blue/checked_blue.png) no-repeat left center;*background-position-y:top;}
+.xundijia a{border:#277bc4 1px solid;color: #277bc4;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -269px\9;border:none\9;}
+.xundijia a:hover{background:#277bc4;color:#fff;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -308px\9;}
+.pkNew .pkbtn a{background: #277bc4;}
+.pkNew .pkbtn a:hover{background:#0a518f;}
+.changeCon a:hover{background:#277bc4;}
+.add-actstyle p.zsLine{color: #277bc4;}
+.add-actstyle .zhuantiForm .btn-like{background: #277bc4;}
+.add-actstyle .zhuantiForm .btn-like:hover{background: #0a518f}
+.add-actstyle .sub-new .zkan{color: #277bc4;border: 1px solid #277bc4}
+.add-actstyle .sub-new .xprice{background: #277bc4;border: 1px solid #277bc4}
+.add-actstyle .sub-new .zkan:hover{background: #277bc4;}
+.add-actstyle .sub-new .xprice:hover{background: #0a518f;}
+.tits_s i{background:#277bc4;}
+.y_kind1 .article-content table td a{color: #f0606e;}
+.y_kind1 .param_table td a{color: #277bc4;}
+.y_kind1 .param_table .y_bg_kind td{background: #fff6f6;}
+.news_t1 .content p .mulink{border-bottom:#277bc4 1px dotted;}
+.news_t1 table .firstRow td{ background: #277bc4;}
+.news_t1 table .firstRow td{color:#277bc4;}
+.aboutTag a:hover{border:#277bc4 1px solid;color:#277bc4;}
+.news_con .news_t1 .content h4{border-left: #277bc4 4px solid;}
+.zixunBtn{background:#277bc4}
+.zixunBtn:hover{background:#0a518f}
+/*标签新样式*/
+.tab_text span.n_tags a:hover{border:#277bc4 1px solid;color:#277bc4;}
+/*车系长尾词标签*/
+.tagsCon h1{border-left:#277bc4 4px solid;}
+.tagsList li:hover{border:#277bc4 1px solid;}
+.tagsList li:hover span.tagsTit{color:#277bc4;}
+.zhBtn a{border:#277bc4 1px solid;color:#277bc4;}
+.zhBtn a:hover{background:#277bc4;color:#fff;}
+.tits_s h2{background:url(../images/dark-blue/titBg_blue.png) no-repeat left center;}
+
+/*pk*/
+.vsBg{background: url(../images/dark-blue/vs_blue.png) no-repeat;}
+.duibiChe .bigTit,.duibiTit .bigTit{border-bottom:#277bc4 3px solid;}
+.xundijia_db a{border:#277bc4 1px solid;color:#277bc4;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -494px\9;border:none\9;}
+.xundijia_db a:hover{background:#277bc4;color:#fff;background: url(../images/dark-blue/ie7_bg_blue.png) no-repeat 0 -536px\9;}
+.bigTit1, .bigTit2, .bigTit3{border-bottom: #277bc4 3px solid;}
+.newsList_d li{background:url(../images/dark-blue/icon_blue1.png) no-repeat 0 16px;}
+.duibiTit ul li{background:#ebf7ff;color:#277bc4;}
+.duibiTit ul li:nth-child(even){ background: #ebf7ff; }
+.poTit li{background:#fff7f7;color:#277bc4;}
+.qubieL,.poTit .bigTit_s,.qubieR{border-bottom:#277bc4 3px solid;}
+/*搜索结果页*/
+.searMenu a.current{color:#277bc4;border-bottom:#277bc4 3px solid;}
+.searPic ul li .picNum,.search-pop-cars dd .price,.search_bottom .sug_submit,.xq_more,.cxcx em,.ttsearch .fenlei a.current,.nojieguo .nokeys{color:#277bc4;}
+.shouPx a.current,.ztBtn{background:#277bc4;color:#fff;border:#277bc4 1px solid;}
+.shouT a.current{color:#277bc4;border-bottom:#277bc4 2px solid;}
+.chexiBtn_s a:hover{background:#277bc4;color:#fff;}
+.ztBtn:hover{background:#0a518f;color:#fff;}
+.sug_submit:hover{background:#277bc4;color:#fff;}
+
+/*询底价预约试驾-lhk*/
+.xunjia ul.tit li a.current{border-bottom: #277bc4 3px solid;color: #277bc4;}
+.kobeicho .kobei-now,.kobeicho .caret-fff,.aTit em a,.jxsbox .jxs p.jsx_tele,.kobeibox ul.kb li:hover {color: #277bc4;}
+.new5 ul li a.current,.cxpp_tab .cxpp_tit li a.current{border-bottom: #277bc4 3px solid;color: #277bc4;}
+.kobeibox ul.kb li.now,.btn-like{background: #277bc4;}
+.jxsbox .jxs .jxs_name em{color: #277bc4;border: 1px #277bc4 solid; }
+.top_text em { color: #277bc4; margin: 0 5px; }
+
+/*车系专题页*/
+.colorTab li a:hover{border:#277bc4 1px solid;}
+.smallList a span,.giftBtn,.duibiFix .contrast.on a,.selectCar .jrcomm:hover{background:#277bc4;}
+.djsjTit a.current,.listTab #baojia li a.now{color:#277bc4; border-bottom:#277bc4 3px solid;}
+.table-style > tbody > tr:hover{background-color: #ebf7ff;border:1px solid #54bdff;}
+.table-style > tbody > tr:hover td{border-top:1px solid #54bdff;}
+.tableDuibi,.datalBox li a:hover .colorIcon,.xudijia{border: 1px solid #277bc4;}
+.tableLink a.tableDuibi,.up,.datalBox li a:hover,.q_mianB_boxA .sdian,.q_mianB_boxA span.mainred,.vsTit em,.xudijia a,.duibi a{color: #277bc4;}
+.ewmsys,.pk02{border-top: 2px solid #277bc4;}
+.selectCar .jrcomm{color: #277bc4;border: 1px solid #277bc4;}
+.xudijia a:hover{background:#277bc4;color:#fff;}
+.giftBtn:hover{background:#0a518f;color:#fff; }
+.tableDuibi .duibiIcon{background: url(../images/dark-blue/jiaduibi.png) no-repeat center; }
+.chooseClose{background: url(../images/dark-blue/chooseClose.png) no-repeat;}
+/*停售*/
+.tingshou a.current{border-bottom:#277bc4 2px solid;color: #277bc4;}
+.cxiR_ts .zdj .zdbj a{color:#277bc4;border:#277bc4 1px solid;}
+.cxiR_ts .zdj .zdbj a:hover{background:#277bc4; color:#fff;}
+/*车型文章页*/
+.tabTitlist li a.current{border-bottom:#277bc4 3px solid;}
+.numred{background:#277bc4;}
+/*车型专题页面*/
+.cxzt_2 dl dt{border: #277bc4 1px solid;color: #277bc4; background: #ebf7ff;}
+.cxztBtn a.cxztB1{border:#277bc4 1px solid;background:#277bc4;color:#fff;}
+.cxztBtn a.cxztB1:hover{background:#0a518f;}
+.cxztBtn a.cxztB2:hover{border:#277bc4 1px solid;background:#277bc4;}
+
+/*相关经销商*/
+.paixu .current{color:#277bc4;background: #ebf7ff;}
+.jxs_A .q_mianB_boxA .tel_a{color:#277bc4;}
+.jxs_C .q_mianB_boxA .xundijia_a a{border:#277bc4 1px solid;color:#277bc4;}
+.jxs_C .q_mianB_boxA .xundijia_a a:hover{background:#277bc4;}
+/*---------------地方站------------------*/
+/*地方站首页*/
+.cheLxTit a.current{border-bottom:#277bc4 3px solid;color:#277bc4;}
+.cuxiaoTit .change{color:#277bc4;}
+.slideBox ul li:hover{border:#277bc4 1px solid;}
+.slideBox ul li .photo a{color:#277bc4;}
+.slideBox ul li .onlineZx{border:#277bc4 1px solid;}
+.slideBox ul li .onlineZx a{color:#277bc4;}
+.slideBox ul li .onlineZx a:hover{background: #277bc4;}
+/*城市筛选*/
+.gedi{background:#0a518f;}
+.gedi a.current,.gedi a:hover{background:#277bc4;}
+.scity_submit{background: #0a518f;}
+.scity_submit:hover{background:#277bc4;}
+.searinfo{color: #277bc4;}
+.ctTit a.current{border-bottom:#277bc4 3px solid;color:#277bc4;}
+@media (max-width: 1366px){
+.nav span.xunjia{background: url(../images/dark-blue/xunjia_blue_s.png) no-repeat;}
+.nav span.xunjia a:hover{background: url(../images/dark-blue/xunjia_blue_hover_s.png) no-repeat;}
+    }
+
+/*网友关注度_l*/
+.Navigation .listing li a.current{border-bottom: #277bc4 3px solid;}
+.l_current {background: #277bc4;color: #fff;}
+.k_list li.l_current:hover{background:#277bc4;color: #fff;}
+.hk_below .xj_button:hover {color: #fff;background: #277bc4}
+.hk_below .xj_button {border: 1px #277bc4 solid;color: #277bc4;}
