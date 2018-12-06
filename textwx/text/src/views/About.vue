@@ -1,9 +1,27 @@
 <template>
   <div class="about">
-    <h1>关于我们</h1>
+    <h1 @click="text1">{{text}}</h1>
   </div>
 </template>
-<style>
+<script>
+export default {
+  data() {
+    return {
+      text: "关于我ddd们"
+    };
+  },
+  mounted() {
+    this.text1();
+  },
+  methods: {
+    text1() {
+      this.text = "12113";
+    }
+  }
+};
+</script>
+
+<style scoped>
 .pay {
   width: 100px;
   height: 40px;

@@ -20,10 +20,10 @@
                 <p class="head-nav activity">最新活动</p>
               </li>
               <li @click="about">
-                <p class="head-nav aboutus">关于我们</p>
+                <p class="head-nav aboutus" :class="activeindex == 2?'active':''">关于我们</p>
               </li>
-              <li>
-                <p class="head-nav homepage" :class="active">首页</p>
+              <li @click="index">
+                <p class="head-nav homepage" :class="activeindex == 1?'active':''">首页</p>
               </li>
             </ul>
           </div>
@@ -38,11 +38,19 @@ export default {
   data() {
     return {
       curCatId: 0,
-      active: "active"
+      active: "active",
+      activeindex: 1
     };
   },
   methods: {
+    index() {
+      this.activeindex = 1;
+      this.$router.push({
+        name: "home"
+      });
+    },
     about() {
+      this.activeindex = 2;
       this.$router.push({
         name: "about"
       });
