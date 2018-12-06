@@ -1,10 +1,10 @@
 <template>
   <div class="about">
-    <div class="pay">点击支付</div>
+    <h1>关于我们</h1>
   </div>
 </template>
 <style>
-.pay{
+.pay {
   width: 100px;
   height: 40px;
   line-height: 40px;
